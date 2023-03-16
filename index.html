@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Kareem Mohammed</title>
+    <link rel="stylesheet" href="karem.css">
+    <link rel="stylesheet" href="karem.js">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <script src="karem.js"></script>
+</head>
+<body>
+    <div id="id01" style="display: none;">
+        <form action="/action_page.php" method="post">
+            <div class="imgcontainer">
+                <span onclick="closeLogInTab()" class="close" title="Close Modal">×</span>
+                <img src="avatar.jpg" alt="Avatar" class="avatar">
+            </div>
+            <div class="container">
+                <label for="uname"><b>Username</b></label>
+                    <input type="text" placeholder="Enter Username" name="uname" required>
+                <label for="psw"><b>Password</b></label>
+                    <input type="password" placeholder="Enter Password" name="psw" required>
+                    <button type="submit">Login</button>
+                <label>
+                    <input type="checkbox" checked="checked" name="remember"> Remember me
+                </label>
+            </div>
+            <div class="container">
+                <button type="button" class="cancelbtn">Cancel</button>
+                <span class="psw">Forgot<a href="#">password?</a></span>
+            </div>
+        </form>
+    </div>
+    <div id="mySidenav" class="sidenav" style="width: 0;">
+    <a class="closebtn" onclick="closeNav()">x</a>
+    <a href="#middle">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#contact me">Contact</a>
+    </div>
+    <header>
+        <div>
+            <span class="btt" style="font-size:30px;cursor:pointer" onclick="openNav()">☰</span>
+        </div>
+            <div>
+                <button onclick="viewLogInTab()" style="width:auto;" class="button">Login</button>
+            </div>
+        <a href="file:///Users/karem/Desktop/css%20cv/index.html#" class="logo"><i>kareem</i></a>
+        <nav class="navigation">
+            <a href="#middle">About me</a>
+            <a href="#skills">My Skills</a>
+            <a href="#contact me">Contact</a>
+        </nav>
+    </header> 
+    <div class="top">
+        <div class="title">
+            <p><h1 class="H2">I'm Kareem</h1></p>
+            <p><h2 class="H3">A <span>pro</span>grammer</h2></p>
+        </div>
+    </div>
+    <div id="middle">
+        <img class="img1" src="IMG_2676.JPG" alt=""width: 200px; style="border-radius: 50px;">
+        <h2 class="hello">Hello.</h2>
+        <p class="me">I am Kareem Mohammed Front-end Developer and member of web development  <span class="link1"><a href="https://www.facebook.com/GDSCAASTMTAswan" target="_blank">GDSCAASTMTAswan</a></span> & i love pets and coding  </p>
+    </div>
+    <hr>
+    <div id="skills">
+        <h2>My Skills.</h2>
+        <div id="skill">
+            <img class="img5" src="123.jpg" alt="">
+            <h3 id="desi">My Computer life & Development</h3>
+            <p id="me2">I started learning to code when I was 12 years old because I wanted to hack family farm. Over time, I
+                have gained a wealth of experience in computer in web developing i learned(HTMl, CSS & javascript) and cyper security(networks & op{linux,windows &macos})</p>
+        </div>
+        <hr class="kkk">
+        <h2>Languages Skills</h2>
+            <div class="pie" style="--p:30">C++ 30%</div>
+            <div class="pie" style="--p:40;--c:darkblue;--b:10px">JS 50%</div>
+            <div class="pie no-round" style="--p:60;--c:purple;--b:15px">C 60%</div>
+            <div class="pie animate no-round" style="--p:80;--c:orange;">CSS 80%</div>
+            <div class="pie animate" style="--p:90;--c:lightgreen"><P>HTML</P>90%</div>
+        <hr>
+    </div>
+    <div id="contact me">
+        <h2>Get In Touch</h2>
+        <a class="btn" href="mailto:karemsaeed1035@gmail.com">Contact Me</a>
+    </div>
+    <div id="last">
+        <div class="social-icons">
+            <a href="https://www.facebook.com/karem.saeed.399/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://www.instagram.com/karem_saeed24/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://twitter.com/KaremMohammed10" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+            <a href="https://www.linkedin.com/in/karem-mohamed-4a127b24a?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3Bm6YAiNoXQxqUj8Q4CbAZzA%3D%3D" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://github.com/karemsaeed21" target="_blank"><i class="fa-brands fa-github"></i></a>
+        <p class="copyright">© 2023 Kareem Mohammed @ AAST</p>
+    </div>
+    </div>
+</body>
+</html>
