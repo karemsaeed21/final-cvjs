@@ -47,7 +47,7 @@
             <div>
                 <button onclick="viewLogInTab()" style="width:auto;" class="button">Login</button>
             </div>
-        <a href="file:///Users/karem/Desktop/css%20cv/index.html#" class="logo"><i>kareem</i></a>
+        <a href="https://karemsaeed21.github.io/final-cvjs/#middle" class="logo"><i>kareem</i></a>
         <nav class="navigation">
             <a href="#middle">About me</a>
             <a href="#skills">My Skills</a>
